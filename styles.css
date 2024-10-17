@@ -1,0 +1,73 @@
+.box{
+    height: 200px;
+    width: 300px;
+    background-color: lightgray;
+}
+.responsive-box{
+    width: 50vw;
+    height: 50vh;
+    background-color: lightgray;
+}
+.padded-text{
+    padding: 20px;
+    background-color: lightgray;
+}
+.custom-padding{
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: lightgray;
+}
+.border-box{
+    border: solid;
+    border-width: 2px;
+    background-color: lightgray;
+    border-color:black;
+}
+.rounded-border{
+    border: dotted;
+    border-width: 3px;
+    border-color:red;
+    background-color: lightgray;
+    border-radius: 15px;
+}
+.margin-text{
+    margin:30px;
+    background-color: lightgray;
+}
+.custom-margin{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: lightgray;
+}
+.inline-element{
+    display: inline;
+    background-color: lightgray
+}
+.block-element{
+    display:block;
+    background-color: lightgray;
+
+}
+.inline-block-element{
+    background-color: lightgray;
+    display: inline-block;
+}
+.hidden-elementP{
+    background-color: lightgray;
+    display: none;
+}
+.visible-element{
+    visibility: visible;
+    background-color: lightgray;
+}
+.invisible-element{
+    visibility: hidden;
+    background-color: lightgray;
+}
+.transparent-box{
+    background-color: rgba(0, 0, 255,0.5);
+}
